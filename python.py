@@ -10,5 +10,7 @@ factual = 2023
 
 edad = factual - fnac
 
-print(" Hola "+nombre+"! Naciste en el "+fnac +
-      ", por lo tanto tenes "+edad+" años!")
+lista = ["Hola ", nombre, "! Naciste en el ", fnac,
+         ", por lo tanto tienes: ", edad, " años!"]
+
+print(lista)
