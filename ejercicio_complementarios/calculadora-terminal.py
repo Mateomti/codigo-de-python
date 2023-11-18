@@ -8,7 +8,7 @@ while True:
     if n1 is None:
         n1 = int(input("Ingrese el primero numero: "))
 
-    op = input("Ingrese una operacion: ")
+    op = input("Ingrese una operación: ")
 
     if "salir" in op:
         break
