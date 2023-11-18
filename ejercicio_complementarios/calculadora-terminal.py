@@ -3,6 +3,7 @@ print("Para salir escribe \"salir\". ")
 print("Se pueden realizar cuatro operaciones: suma, resta, multi, div")
 
 n1 = None
+
 while True:
 
     if n1 is None:
@@ -10,7 +11,7 @@ while True:
 
     op = input("Ingrese una operación: ")
 
-    if "salir" in op:
+    if op.lower() == "salir":
         break
 
     n2 = int(input("Ingrese el segundo numero: "))
@@ -27,6 +28,9 @@ while True:
         n1 *= n2
         print(n1)
 
-    else:
+    elif op.lower() == "div":
         n1 /= n2
         print(n1)
+    else:
+        print("Operacion incorrecta.")
+        break
