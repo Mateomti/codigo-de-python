@@ -7,7 +7,7 @@ n1 = None
 while True:
 
     if n1 is None:
-        n1 = int(input("Ingrese el primero numero: "))
+        n1 = int(input("Ingrese el primero numero epico: "))
 
     op = input("Ingrese una operación: ")
 
