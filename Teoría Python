@@ -1,0 +1,90 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "toc_visible": true,
+      "authorship_tag": "ABX9TyNdvZv9jHXRrHO0LWL/xmNI",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Mateomti/codigo-de-python/blob/main/Teor%C3%ADa%20Python\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "# Curso de Python\n",
+        "\n",
+        " Framework: Marco de trabajo. Nos va a ayudar en nuestro trabajo, ofrece una   serie de pasos a seguir para hacer ciertas cosas. Por ejemplo, Django en Python, en un framework de desarrollo web el cual únicamente nos va a servir para el desarrollo de paginas web, como por ejemplo hacer interfaces gráficas, es decir aplicaciones de escritorio.\n",
+        "\n",
+        "\n",
+        "Conversion de string a int:\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n"
+      ],
+      "metadata": {
+        "id": "MOj_u0BYiF9k"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#Se usa el comando int() para convertir un elemento en un entero.\n",
+        "Edad = int(input(\"ingrese su edad: \"))\n",
+        "print(f\"Su edad es de {Edad} años.\")"
+      ],
+      "metadata": {
+        "id": "_roCXBAaUOBw"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "# Listas\n",
+        "\n",
+        "Una lista es una coleccion de datos de cualquier tipo, pueden ser int's, String's o ambos incluso puede contener otras listas o tuplas. La misma se puede modificar y ordenar."
+      ],
+      "metadata": {
+        "id": "amLbY7_rYy1f"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#Se crea con corchetes []\n",
+        "lista = [1, 5.6, \"hola\", [1,2]]\n",
+        "print(lista)"
+      ],
+      "metadata": {
+        "id": "6tAuLNYQZY7Y"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
