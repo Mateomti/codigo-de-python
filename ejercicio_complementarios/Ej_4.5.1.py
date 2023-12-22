@@ -10,7 +10,7 @@ cp = 0
 while True:
 
     produ.update({input("Ingrese el nombre del producto: ")
-                 : int(input("Ingrese la cantidad: "))})
+            : int(input("Ingrese la cantidad: "))})
 
     if input("Desea ingresar un nuevo producto? Si o no: ") == 'no':
         print("\n")
