@@ -6,7 +6,7 @@
 # como una entrada no numérica o una edad fuera del rango válido.
 while True:
     try:
-        edad = float(input('Ingrese su edad: '))
+        edad = int(input('Ingrese su edad: '))
         if 18 <= edad <= 65:
             print('Su edad se encuentra dentro del rango de 18 a 65 años.')
             break
@@ -18,5 +18,5 @@ while True:
         print(f'ERROR. Se ha ingresado un dato de tipo string: {TypeError.__name__}')
     except ValueError:
         print(f'ERROR. Se ha ingresado un valor invalido: {ValueError.__name__}')
-    except:
-        print('ERROR. Se ha generado un error desconocido.')
+    except Exception as e:
+        print(f'ERROR. Se ha generado un error desconocido: {type(e).__name__}')
