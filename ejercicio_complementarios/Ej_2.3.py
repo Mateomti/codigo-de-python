@@ -8,7 +8,6 @@ x = input("Ingrese una oracion: ")
 
 print(f"Oracion a mayusculas: {x.upper()}")
 
-print(f"Cantidad de veces que aparece la palabra 'python': {
-      x.lower().count('python')}")
+print(f"Cantidad de veces que aparece la palabra 'python':{x.lower().count('python')}")
 
 print(f"Oracion sin los espacios en blancos: {x.strip()}")

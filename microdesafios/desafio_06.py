@@ -4,13 +4,11 @@
 
 def dividir(a, b):
 
-    print('El programa funciono correctamente.')
-    print(a/b)
+    return a/b
 
 
 try:
-    dividir(int(input('Ingrese un numero: ')),
-            int(input('Ingrese otro numero: ')))
-except ValueError:
+    print(dividir(5,'6'))
+except:
     print(None)
 

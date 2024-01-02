@@ -6,9 +6,10 @@
 
 inventario = {'manzanas': 50, 'bananas': 30, 'peras': 40}
 
-inventario.update({input("Ingrese la fruta que desea agregar: ")                  : int(input("Ingrese la cantidad: "))})
+inventario.update({input("Ingrese la fruta que desea agregar: "):
+                int(input("Ingrese la cantidad: "))})
 
-inventario.update({input(f"Indique de que fruta quiere cambiar la cantidad({inventario.keys()}): "): int(
-    input("Indique la nueva cantidad: "))})
+inventario.update({input(f"Indique de que fruta quiere cambiar la cantidad({inventario.keys()}): "):
+                int(input("Indique la nueva cantidad: "))})
 
 print(inventario)
