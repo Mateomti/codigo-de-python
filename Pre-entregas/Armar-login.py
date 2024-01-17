@@ -4,11 +4,12 @@ def registrar():
     usuario = input('Ingrese su nombre de usuario: ')
     contrasena = input('Inrgese su contraseña: ')
     base[usuario] = contrasena
-    print("Usted ha sido registradop correctamente!")
+    print("Usted ha sido registrado correctamente!")
 
 def mostrar():
     for key, value in base.items():
         print(f'Usuario: {key}, Contraseña: {value}.')
+    
 
 def login(usu,contra):
     for keys, values in base.items():
