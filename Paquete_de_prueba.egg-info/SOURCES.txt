@@ -1,0 +1,8 @@
+setup.py
+Paquete_de_prueba.egg-info/PKG-INFO
+Paquete_de_prueba.egg-info/SOURCES.txt
+Paquete_de_prueba.egg-info/dependency_links.txt
+Paquete_de_prueba.egg-info/top_level.txt
+desafio_08/__init__.py
+desafio_08/clase.py
+desafio_08/uso.py
