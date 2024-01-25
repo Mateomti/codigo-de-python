@@ -1,8 +1,0 @@
-Fecha: 2024-01-19 15:36:03.934946 - Descripción: zapatilla converse - Cantidad: 1
-Fecha: 2024-01-19 15:41:09.330495 - Descripción: qwe - Cantidad: qwe
-Fecha: 2024-01-19 15:41:19.521938 - Descripción: qwe - Cantidad: qwe
-Fecha: 2024-01-19 15:41:21.111450 - Descripción: qwe - Cantidad: qwe
-Fecha: 2024-01-19 15:41:22.326530 - Descripción: qwe - Cantidad: qwe
-Fecha: 2024-01-19 15:41:23.438886 - Descripción: qw - Cantidad: eqwe
-Fecha: 2024-01-19 15:41:24.491302 - Descripción: qw - Cantidad: eqwe
-Fecha: 2024-01-19 15:41:25.711744 - Descripción: qwe - Cantidad: qwe

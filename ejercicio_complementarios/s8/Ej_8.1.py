@@ -6,7 +6,7 @@ def registrar_gasto():
     c = input('Ingrese la cantidad: ')
     factual = datetime.now()
     aa = open('Registro de gastos.txt', 'a')
-    aa.write(f'Fecha: {factual} - Descripción: {d} - Cantidad: {c}\n')
+    aa.write(f'Fecha: {factual} - Descripcion: {d} - Cantidad: {c}\n')
     aa.close()
 
 while True:
